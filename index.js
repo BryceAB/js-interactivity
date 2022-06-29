@@ -15,7 +15,7 @@ function addMovie(event) {
   deleteBtn.addEventListener("click", deleteMovie);
   movie.appendChild(deleteBtn);
   document.querySelector("ul").appendChild(movie);
-  inputField = "";
+  inputField.value = "";
 }
 
 function deleteMovie(event) {
